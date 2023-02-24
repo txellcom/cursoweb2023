@@ -1,0 +1,14 @@
+p {
+    text-align: center;  
+    color: red;
+}
+
+#id1 {
+    text-align: center;
+    color: rgb(255, 0, 179);
+}
+
+.center {
+    text-align: center;    
+    background-color: rgb(123, 255, 0);    
+}
