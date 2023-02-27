@@ -1,0 +1,18 @@
+/* El primer elemento párrafo obtiene esta propiedad */
+p:first-child {
+    color: blue;
+}
+
+/* Solo el primer italic de todos los párrafos */
+p i:first-child {
+    color: violet;
+}
+
+/* Todos los italic del primer párrafo */
+p:first-child i {
+    color: rgb(0, 255, 106);
+    }
+
+input:focus {
+    background-color: brown;
+}
