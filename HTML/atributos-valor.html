@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      [title~="flor"] {
+        border: 5px solid yellow;
+      }
+
+      [class|="arriba"] {
+        background-color: yellow;
+      }
+
+      [class^="arriba"] {
+        background-color: yellow;
+      }
+
+      [class$="test"] {
+        background: yellow;
+      }
+
+      [class*="te"] {
+        background: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS [atributo ~ = "valor“]</h1>
+    <p>
+      Imágenes con el título del atributo que contenga "flor" con borde
+      amarillo.
+    </p>
+    <img src="flor1.jpg" title="Alguna flor" width="150" height="150" />
+    <img src="otra2.gif" title="flor de loto" width="150" height="150" />
+    <img src="tercera.png" title="arbol floral" width="150" height="150" />
+
+    <h1>CSS [atributo | = "valor"]</h1>
+    <h2 class="arriba-titular">Bienvenido</h2>
+    <p class="arriba-texto">Hola mundo!</p>
+    <p class="arribacontenido">Aprendiendo CSS y selectores de atributos</p>
+
+    <h1>CSS [atributo ^ = "valor"]</h1>
+    <h2 class="arriba-titular">Bienvenido</h2>
+    <p class="arriba-texto">Hola mundo!</p>
+    <p class="arribacontenido">Aprendiendo CSS y selectores de atributos</p>
+
+    <h1>CSS [atributo $ = "valor"]</h1>
+    <div class="primer_test">El primer elemento div</div>
+    <div class="segundo">El segundo elemento div</div>
+    <div class="mi-test">El tercer elemento div</div>
+    <p class="mitest">Esto es algo de texto en el párrafo</p>
+
+    <h1>CSS [atributo * = "valor"]</h1>
+    <div class="primer_test">El primer elemento div</div>
+    <div class="segundo">El segundo elemento div</div>
+    <div class="mi-test">El tercer elemento div</div>
+    <p class="mitest">Esto es algo de texto en el párrafo</p>
+  </body>
+</html>
