@@ -1,0 +1,56 @@
+h1 {
+    color: red;
+    text-align: center;
+    background-color: black;
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color: blue;
+    text-align: left;
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    color: blueviolet;
+    text-align: left;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: rgb(5, 253, 79);
+    text-align: justify;
+    letter-spacing: 3px;
+}
+
+div {
+    text-align: left;
+}
+
+a:link {
+    color: rgb(255, 0, 140);
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: pink;
+}
+
+a:active {
+    color: yellow;
+}
+
+a.rojo:hover {
+    color: #ff0000;
+}
+
+.pujaamunt {
+    padding: 20px 0px 6px 40px;
+    background-color: bisque;
+}
