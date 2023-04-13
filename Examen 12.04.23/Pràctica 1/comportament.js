@@ -1,43 +1,15 @@
-// var idParagraf, tamany;
+const miParrafo = document.getElementById("paragraf");
 
-const miParagraf = document.getElementById("paragraf");
-
-miParagraf.addEventListener("mouseover", function() {
-  miParagraf.style.fontSize = "larger";
+miParrafo.addEventListener("mouseover", function() {
+  miParrafo.style.fontSize = "35px";
 });
 
-miParagraf.addEventListener("mouseout", function() {
-  miParagraf.style.fontSize = "initial";
+miParrafo.addEventListener("mouseout", function() {
+  miParrafo.style.fontSize = "initial";
 });
 
-// function canviEstil(idParagraf, tamany) {
-//     var paragraf = document.getElementById(idParagraf);
-//     paragraf.style.fontSize = tamany;
-//     canviarTamanyParagraf
-//     canviarTamanyParagraf(idParagraf, "35px");
-// }
+const miTitulo = document.getElementById("titul");
 
-// function canviTamany(idParagraf) {
-//     canviarTamanyParagraf
-//     canviarTamanyParagraf(idParagraf, "35px");
-// }
-
-// function canviColor() {
-//     document.getElementById("titol").innerHTML = "¿Hola!";
-// }
-
-
-
-
-
-
-// function cambiarTamanoParrafo(idParrafo, tamano) {
-//     var parrafo = document.getElementById(idParrafo);
-//     parrafo.style.fontSize = tamano;
-//   }
-
-// function hacerMasGrande(idParrafo) {
-  
-//     cambiarTamanoParra
-//   cambiarTamanoParrafo(idParrafo, '24px');
-//   }
+function cambiarColorTitulo() {
+  miTitulo.style.color = "red";
+}
